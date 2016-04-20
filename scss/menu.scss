@@ -1,0 +1,128 @@
+//Estilo del Menu
+header {
+    
+    .cd-nav {
+        position: fixed;
+        z-index: 6;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color:$color-6;
+        visibility: hidden;
+        @include transition(visibility 0s .7s);
+        
+        .cd-navigation-wrapper {
+            height: 100%;
+            overflow-y: hidden;
+            @include transform(translateZ(0));
+            @include backface-visibility(hidden);
+            @include transform(translateX(-50%));
+            -webkit-transition: transform .7s;
+            -o-transition: transform .7s ;
+            transition: transform .7s ;
+            @include transition-timing-function(cubic-bezier(.86,.01,.77,.78));
+        }
+        
+        nav {
+            margin-top: 90px;
+            
+            .cd-primary-nav{
+                list-style: none;
+                padding: 0;
+                
+                li {
+                    margin-bottom: 20px;
+                
+                    a {
+                        width: 100%;
+                        font-size: 32px;
+                        font-family: $font-title;
+                        color: $color-1;
+                        display: inline-block;
+                        padding-left: 25px;
+                        
+                        strong {
+                            font-family: $font-general;
+                            font-size: 12px;
+                            display: block;
+                            font-weight: 400;
+                        }
+                        &:hover, &:focus {
+                            text-decoration: none;
+                            color: $color-4;
+                            background-color: $color-7;
+                        }
+                    }
+                    
+                    .selected {
+                        color: $color-4;
+                    }
+                }
+            }
+        }
+    }
+    
+    .show {
+        visibility: visible;
+        @include transition(visibility 0s 0s);
+        .cd-navigation-wrapper {
+           @include transform(translateX(0));
+            -webkit-transition: transform .7s - 0.2s ;
+            -o-transition: transform .7s - 0.2s ;
+            transition: transform .7s - 0.2s ;
+           @include transition-timing-function(cubic-bezier(.82,.01,.77,.78));
+        }
+    }
+//Boton para abrir el menu
+    .menu {
+        .cd-nav-trigger {
+            position: fixed;
+            right: 5%;
+            top: 20px;
+            width: 54px;
+            height: 54px;
+            background: $color-5;
+            border-radius: 100%;
+            cursor: pointer;
+            z-index: 8;
+            @include MQ(SM) {
+                top: 0;
+                right: 0;
+                display: block;
+                width: 100%;
+                border-radius: 0;
+                transition: none;
+                height: 40px;
+            }
+            
+        }
+        
+        span {
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            font-size: 22px;
+            top: 30%;
+            left: 14px;
+            color: $color-4;
+            @include MQ(SM) {
+                width: 100%;
+                left: auto;
+            }
+        }
+            
+        p {
+            position: fixed;
+            width: 50px;
+            top: 75px;
+            right: 4.66%;
+            margin: 0;
+            font-weight: 700;
+            z-index: 8;
+            @include MQ(SM) {
+                display: none;
+            }
+        }
+    }
+}

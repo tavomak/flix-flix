@@ -1,0 +1,47 @@
+/* line 2, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+.social {
+  width: 280px;
+  float: left; }
+  /* line 5, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+  .social ul {
+    list-style: none;
+    padding-left: 20px; }
+  /* line 9, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+  .social li {
+    height: 34px;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    float: left; }
+  /* line 16, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+  .social a {
+    height: 34px;
+    position: relative;
+    top: -18px;
+    display: block; }
+  /* line 22, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+  .social .instagram {
+    background: url(../img/instagram-hover.png) no-repeat;
+    background-size: contain; }
+    /* line 25, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+    .social .instagram:hover {
+      background: url(../img/instagram.png) no-repeat;
+      background-size: contain; }
+  /* line 30, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+  .social .facebook {
+    background: url(../img/facebook-hover.png) no-repeat;
+    background-size: contain; }
+    /* line 33, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+    .social .facebook:hover {
+      background: url(../img/facebook.png) no-repeat;
+      background-size: contain; }
+  /* line 38, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+  .social .flickr {
+    background: url(../img/flickr-hover.png) no-repeat;
+    background-size: contain; }
+    /* line 41, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/social.scss */
+    .social .flickr:hover {
+      background: url(../img/flickr.png) no-repeat;
+      background-size: contain; }
+
+/*# sourceMappingURL=social.css.map */

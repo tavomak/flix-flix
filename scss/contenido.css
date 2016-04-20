@@ -1,0 +1,30 @@
+/* line 1, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/contenido.scss */
+body {
+  background: #9b9b9b; }
+
+/* line 8, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/contenido.scss */
+.first-content ul {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 50%; }
+
+/* line 14, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/contenido.scss */
+.first-content li {
+  list-style: none; }
+
+/* line 17, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/contenido.scss */
+.first-content #right-content {
+  position: relative;
+  display: block;
+  right: 60px; }
+
+/* line 22, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/contenido.scss */
+.first-content img {
+  width: 100%; }
+
+/* line 27, C:/Users/user/Documents/Miguel/Desarrollo Web/Proyectos/flix-flix/scss/contenido.scss */
+.wrapper {
+  background: color-1; }
+
+/*# sourceMappingURL=contenido.css.map */

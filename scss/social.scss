@@ -1,0 +1,49 @@
+//Redes sociales   
+.social {
+    width: 280px;
+    float: left;
+    ul {
+        list-style: none;
+        padding-left: 20px;
+    }
+    li {
+        height: 34px;
+        width: 33%;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    a {
+        height: 34px;
+        position: relative;
+        display: block;
+    }
+    .instagram {
+        background: url(../img/instagram-hover.png) no-repeat;
+        background-size: contain;
+        &:hover {
+            background: url(../img/instagram.png) no-repeat;
+            background-size: contain;
+        }
+    }
+    .facebook {
+        background: url(../img/facebook-hover.png) no-repeat;
+        background-size: contain;
+        &:hover {
+            background: url(../img/facebook.png) no-repeat;
+            background-size: contain;
+        }
+    }
+    .flickr {
+        background: url(../img/flickr-hover.png) no-repeat;
+        background-size: contain;
+        &:hover {
+            background: url(../img/flickr.png) no-repeat;
+            background-size: contain;
+        }
+    }
+    strong {
+        color: $color-1;
+        margin: 10px;
+    }
+}

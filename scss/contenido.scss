@@ -1,0 +1,170 @@
+//Estilo General
+body {
+    font-family: $font-general;
+    
+    p {
+        font-size: 14px;
+    }
+}
+
+header {
+    
+    .logo {
+        position: relative;
+        width: 150px;
+        height: 75px;
+        background: url(../img/flix-sinsombra.png) no-repeat;
+        margin-bottom: 50px;
+        background-size: contain;
+        background-position: center;
+        margin-left: 25px;
+        margin-top: 15px;
+        @include MQ(SM){
+            width: 200px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+    }
+}
+
+h1, h2 {
+    font-family: $font-title;
+}
+
+//Video de fondo
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -2;
+}
+
+//Patron
+
+.pattern {
+    background-image: url(../img/pattern.png);
+    position: relative;
+    display: block;
+    padding: 1px;
+}
+
+//Estilo del Contenido principal
+
+.first-content {
+    
+    ul {
+        position: relative;
+        display: block;
+        width: 415px;
+        margin: 0 auto;
+        padding: 0;
+        @include MQ(SM) {
+            width: 90%;
+        }
+    }
+    
+    li {
+        list-style: none;
+        margin: 35px;
+    }
+    #right-content {
+        position: relative;
+        right: 120px;
+        @include MQ(SM) {
+            right: 0;
+        }
+        
+        p {
+            width: 450px;
+            margin: 0 auto;
+            padding-top: 10px;
+            color: $color-1;
+            @include MQ(SM) {
+                width: 100%
+            }
+        }
+    }
+    #left-content {
+        .bg-ind {
+            background: url(../img/bg-ind.png) no-repeat; 
+            background-size: contain;
+            width: 510px;
+            height: 220px;
+            padding-top: 30px;
+            @include MQ(SM) {
+                width: 100%;
+                background: none; 
+            }
+            
+            p {
+                max-width: 414px;
+                margin: 0 auto;
+                padding-left: 10px;
+                color: $color-1;
+            }
+        }
+    }
+    
+    img {
+        width: 100%;
+        @include MQ(SM) {
+            margin-top: 25px;
+        }
+    }
+}
+//Estilo de la envoltura blanca 
+.wrapper {
+    background: $color-1;
+    padding: 30px;
+    z-index: 5;
+   
+    h1 {
+        margin: 5px 0 5px 0;
+        color: $color-3;
+        font-size: 24px; 
+    }
+    
+    .image-wrapper {
+        width: 30%;
+        display: block;
+        float: left;
+    }
+    
+    img {
+        width: 100%
+    }
+    
+    p {
+        width: 68%;
+        display: inline-block;
+        border: 1px solid $color-2;
+        padding: 20px;
+        text-align: justify;
+        @include MQ(SM){
+            width: 100%
+        }
+    }
+}
+
+//Estilo de Exposiciones y Participaciones
+.second-content {
+    h1 { 
+        line-height: 100%;
+        font-size: 32px;
+        color: $color-4;
+        margin-bottom: 25px
+    }
+    h2 {
+        font-size: 24px;
+        color: $color-1;
+        margin: 10px;
+    }
+    li {
+        color: $color-1;
+    }
+}

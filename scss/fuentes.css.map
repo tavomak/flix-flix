@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "fuentes.css",
+  "sources": [
+    "fuentes.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAQA,OAAO,CAAC,uEAAI;AAPZ,UAAU;EACR,WAAW,EAAE,yBAA0B;EACvC,GAAG,EAAE,4CAAG;EACR,GAAG,EAAE,mDAAG,CAAiD,2BAAM,EAAuB,8CAAG,CAA4C,eAAM,EAAW,6CAAG,CAA2C,cAAM,EAAU,4CAAG,CAA0C,kBAAM,EAAc,oEAAG,CAAkE,aAAM;EAChW,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO",
+  "names": []
+}
